@@ -1,9 +1,6 @@
-import { createApp, h } from 'vue'
-import { add } from 'lib-starter'
-
-function App() {
-  return h('div', add(1, 2))
-}
+import './app.css'
+import { createApp } from 'vue'
+import App from './app'
 
 const app = createApp(App)
 app.mount('#app')

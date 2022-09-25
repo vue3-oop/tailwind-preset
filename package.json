@@ -1,13 +1,13 @@
 {
-  "name": "lib-starter",
-  "version": "0.0.1",
-  "main": "dist/lib-starter.cjs.js",
-  "module": "dist/lib-starter.es.js",
+  "name": "@vue3-oop/tailwind-preset",
+  "version": "1.0.0",
+  "main": "dist/tailwind-preset.js",
+  "module": "dist/tailwind-preset.mjs",
   "types": "types/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/lib-starter.es.js",
-      "require": "./dist/lib-starter.cjs.js"
+      "require": "./dist/tailwind-preset.js",
+      "import": "./dist/tailwind-preset.mjs"
     },
     "./*": "./*"
   },
@@ -20,7 +20,7 @@
     "type:check": "tsc --noEmit",
     "lint": "eslint --fix .",
     "format": "prettier --write '**/*.{ts,tsx,js,css,scss,html,json}'",
-    "release": "pnpm test && pnpm build && release-it",
+    "release": "pnpm build && release-it",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs"
@@ -39,9 +39,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/agileago/lib-starter.git"
+    "url": "git+https://github.com/vue3-oop/tailwind-preset.git"
   },
-  "homepage": "https://agileago.github.io/lib-starter",
+  "homepage": "https://vue3-oop.github.io/tailwind-preset",
   "license": "MIT",
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",

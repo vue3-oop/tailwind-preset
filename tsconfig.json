@@ -22,7 +22,8 @@
     "declarationDir": "types",
     "baseUrl": ".",
     "paths": {
-      "lib-starter": ["src"]
+      "@vue3-oop/tailwind-preset": ["src"]
     }
-  }
+  },
+  "include": ["src", "vite.config.ts"]
 }

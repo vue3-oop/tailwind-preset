@@ -1,6 +1,6 @@
-# 库模板
+# tailwind-preset
 
-全局搜索 `lib-starter` 替换为你要写的库名称
+设置rem为px
 
 ## 开发
 
